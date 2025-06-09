@@ -183,3 +183,40 @@ form button {
   text-decoration: none;
   margin: 0 10px;
 }
+
+
+/*
+   medias queries
+*/
+@media (max-width: 768px) {
+  .main-nav .nav-list {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-header {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 1024px) {
+  header nav li {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about, .contact-form {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  header nav li {
+    display: block;
+    margin: 10px 0;
+  }
+}
