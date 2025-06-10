@@ -70,6 +70,54 @@ body {
 .nav-list a:hover {
   background: #fff176;
 }
+
+
+/*imagen de index */
+ /* Hidden Image Toggle */
+ 
+.show-btni {
+  background: #ff6347;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ .show-btni:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+ } 
+
+ /* Hidden Image Toggle */
+.hidden-imgi {
+  display: none;
+  margin-top: 20px;
+  position: relative;
+}
+
+#toggle-imagei:checked ~ .hidden-imgi {
+  display: block;
+}
+
+.hidden-imgi img {
+  width: 1200px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.close-btni {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background: #333;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+
 /* 
     Header y navegación
     por separado cada pagina
@@ -126,6 +174,11 @@ header nav a:hover {
   box-shadow: 0 4px 15px rgba(0,0,0,0.3);
 }
 
+
+
+
+
+
 /* Contact Form */
 .contact-form {
   display: flex;
@@ -161,10 +214,125 @@ form button {
   transform: scale(1.05);
  }       
        
+/* 
+    about
+*/
+/* About Section */
+.about {
+  text-align: center;
+  padding: 40px;
+}
 
-  
+.show-btn {
+  background: #ff6347;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ .show-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+ } 
 
-       
+ /* Hidden Image Toggle */
+.hidden-img {
+  display: none;
+  margin-top: 20px;
+  position: relative;
+}
+
+#toggle-image:checked ~ .hidden-img {
+  display: block;
+}
+
+.hidden-img img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background: #333;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+/*boton de la segunda pregunta es decir arte 
+*/
+.show-btnt {
+  background: #ff6347;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ .show-btnt:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+ } 
+
+ /* Hidden Image Toggle */
+.hidden-imgt {
+  display: none;
+  margin-top: 20px;
+  position: relative;
+}
+
+#toggle-imaget:checked ~ .hidden-imgt {
+  display: block;
+}
+
+.hidden-imgt img {
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+.close-btnt {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  background: #333;
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* 

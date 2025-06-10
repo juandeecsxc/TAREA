@@ -1,0 +1,100 @@
+:root {
+  --color-principal: #e91e63;
+  --color-secundario: #ffeb3b;
+  --color-texto: #212121;
+  --color-fondo: #fefefe;
+  --color-carta: #fff8e1;
+  --fuente: 'Segoe UI', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fuente);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+.feria-header {
+  background: var(--color-principal);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.feria-header h1 {
+  margin-bottom: 0.5rem;
+}
+
+.nav-tabs {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-tabs a {
+  background: var(--color-secundario);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--color-texto);
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.nav-tabs a:hover {
+  background: #fff176;
+}
+
+.tab-section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.schedule-card {
+  background-color: var(--color-carta);
+  border-left: 5px solid var(--color-principal);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #0001;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card-img {
+    width: 80%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    box-shadow: 0 0 4px #0001;
+}
+
+
+.schedule-card:hover {
+  transform: scale(1.02);
+}
+
+.feria-footer {
+  text-align: center;
+  background-color: var(--color-principal);
+  color: white;
+  padding: 1rem;
+  margin-top: 2rem;
+}
