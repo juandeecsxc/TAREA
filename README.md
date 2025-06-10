@@ -1,5 +1,5 @@
 # TAREA
-portafolio actividad final
+link= [portafolio actividad final](https://juandeecsxc.github.io/TAREA/)
 ## infomacion del code  
  - **Nombre:** Juan carlos balcero torres
  - **Clan:** Ritchie
